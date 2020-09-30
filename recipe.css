@@ -1,0 +1,81 @@
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+        text-decoration: #404040;
+        font-size: 11pt;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+    .headingmain{
+        text-align: center;
+        font-size: 22pt;
+        font-weight: bold;
+        color:  #A4A400 ;
+        background: #F0F0F0;
+        font-family: 'Lucida', 'Sans Unicode', 'Helvetica', 'Arial' ;
+        text-decoration: underline;
+    }
+    .headingres{
+        text-align: left;
+        font-size: 18pt;
+        font-weight: bold;
+        color:  #A4A400 ;
+        background: #F0F0F0;
+        font-family: 'Lucida', 'Sans Unicode', 'Helvetica', 'Arial' ;
+        text-decoration: underline;
+    }
+    ul.ingredient {
+        padding-left: 5rem;
+        list-style-type: circle;}
+    
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+    .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+      .tooltip {
+        position: relative;
+        display: inline;
+        border-bottom: 1px solid black;
+      }
+      ol>li.order{
+          font-weight: bold;
+      }
+      ul>li{
+          font-weight: normal;
+      }
+      p{
+          margin-left: 2rem;
+      }
+      .comments>p{
+          font-style: italic;
+      }
+      a{
+          color: #A4A400  ;
+      }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+  footer{
+        width: 100%;
+           text-align: center;
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+        bottom: 0;
+    }
+   
+      
+   

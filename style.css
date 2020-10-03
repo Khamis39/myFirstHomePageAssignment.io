@@ -1,0 +1,138 @@
+body{
+    font-size: 12pt;
+    background-image: url(img/bg.png);
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: stretch;
+}
+header{
+    background-image: url(img/rancidbannerbg.png);
+    background-size: 50px;
+    background-repeat: repeat-x;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    max-width: 100%;
+    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.banner{
+    text-align: center;
+    font-size: 24pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    margin-top: 100px;
+    text-shadow: 3px 3px 0px #999999;
+    
+    
+}
+
+
+aside.flex-class{
+    display: flex;
+  width: 92%;
+ 
+}
+aside.flex-class .flex-nested{
+  background-image: url(img/rancidbannerbg.png);
+  background-size: 83px;
+  flex-direction: row;
+  width: 55%;
+
+  background-repeat: repeat-x;
+text-align: center;
+align-items: center;
+
+}
+aside.flex-class .flex-nested .number{
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+    display: block;
+}
+aside>div.flextoleft{
+    float: left;
+    padding-left: 0;
+    padding-top: 0;
+    
+}
+/* aside>div.flextoright{
+    float: right;
+    padding-right: 0;
+    padding-top: 0;
+} */
+aside>aside.flex-nested{
+flex-direction: column;
+flex: 55%;
+background-color: #eeeeee;
+box-shadow: 5px 5px 5px 5px gray;
+
+
+}
+aside>aside.flex-second{
+    flex-direction: column;
+    background-color: #A2B964;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comment{
+    text-align: left;
+    margin-top: 70px;
+    display: block;
+    border: 2px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border-style: solid;
+    width: 90%;
+    padding: 1em;
+   background-color: #FFFFFF;
+   border-color: #cccccc;
+   font-size: 13pt;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.comment>cite span{
+    quotes: initial;
+    margin-left: 5px;
+}
+.owner{
+    text-align: left;
+    font-style: normal;
+}
+.owner span{
+    font-style: italic;
+}
+.comment-rest{
+    text-align: left;
+    display: block;
+    border: 2px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border-style: solid;
+    width: 90%;
+    padding: 1em;
+   background-color: #FFFFFF;
+   border-color: #cccccc;
+   font-size: 13pt;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.comment-rest>cite span{
+    quotes: initial;
+    margin-left: 5px;
+}
+dt{
+    font-weight: bold;
+    
+}
+dd{
+    margin-right: 15px;
+   
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    background-color: #A2B964;
+    padding: 0.5em;
+}
